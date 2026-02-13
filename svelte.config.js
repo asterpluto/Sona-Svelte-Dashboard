@@ -16,8 +16,7 @@ const config = {
 			// GitHub Pages serves at https://<user>.github.io/<repo>/
 			base: dev ? '' : '/sona-Svelte'
 		},
-		prerender: { default: true },
-		trailingSlash: 'always',
+		prerender: { entries: ['*'] },
 		appDir: 'app'
 	}
 };
